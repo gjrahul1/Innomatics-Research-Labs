@@ -1,4 +1,3 @@
-import google.generativeai as genai
 from langchain.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 import streamlit as st
