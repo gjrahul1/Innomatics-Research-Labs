@@ -24,7 +24,7 @@ def output_parse(raw_result: str) -> dict:
 # Core Method
 def plan_trip(current_location: str, destination: str) -> dict:
     # Model Selection with a valid model name
-    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=api_key)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=api_key)
 
     # Updated Prompt Template with strict JSON instruction
     prompt_template = PromptTemplate(
